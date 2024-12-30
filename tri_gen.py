@@ -6,13 +6,11 @@ def gen_tri_list(num):
 
 def gen_tri_strip(num):
     print("\nGenerated as Triangle strip:")
-    front_face = True
     for i in range(3, num + 1):
-        if front_face:
+        if i % 2:
             print(f"f {i - 2} {i - 1} {i}")
         else:
             print(f"f {i - 2} {i} {i - 1}")
-        front_face = not front_face
 
 
 if __name__ == "__main__":
