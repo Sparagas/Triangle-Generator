@@ -78,9 +78,9 @@ f 4 5 6
 
 Generated as Triangle strip:
 f 1 2 3
-f 2 3 4
+f 2 4 3
 f 3 4 5
-f 4 5 6
+f 4 6 5
 ```
 
 ## Development
